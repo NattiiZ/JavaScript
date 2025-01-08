@@ -1,4 +1,3 @@
-// lib-Hello.js
 const person = {
     name: 'Nattawut',
     weight: 50
