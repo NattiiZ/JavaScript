@@ -2,7 +2,7 @@ function who()
 {
     return new Promise((resolve) => {
                     setTimeout(() => {
-                        resolve("😜");
+                        resolve("🧛‍♀️");
                     }, 200);
                 });
 }

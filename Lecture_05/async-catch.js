@@ -2,7 +2,7 @@ function yay0rNay()
 {
     return new Promise((resolve, reject) => {
                     const value = Math.round(Math.random() * 1);
-                    value?resolve("Lucky!"):resolve("Nope!");
+                    value?resolve("Lucky🍀"):resolve("Nope😜");
                 })
 }
 
