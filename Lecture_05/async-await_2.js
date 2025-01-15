@@ -5,12 +5,20 @@ function promiseTimeout(ms)
                 });
 }
 
+async function longRunningOparation() 
+{
+   return (42);
+}
+
 async function run() 
 {
-    // Logic
+    // logic
     console.log("Start!");
-    // Try take of await and compare
     await promiseTimeout(2000);
+    // Try take of await and compare
+    const response = await longRunningOparation();
+    console.log(response);
+
     console.log("Stop!");
 }
 
