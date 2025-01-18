@@ -1,4 +1,4 @@
-function findtHigh(num) 
+function findHigh(num) 
 {
     let split = num.toString().split("");
 
@@ -6,4 +6,4 @@ function findtHigh(num)
 }
 
 
-console.log(findtHigh(379));
+console.log(findHigh(379));
