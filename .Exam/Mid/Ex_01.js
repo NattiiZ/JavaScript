@@ -1,0 +1,1 @@
+splitNum(2);
