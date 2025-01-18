@@ -27,7 +27,6 @@ function checkIP(IP)
     else 
         check = false;
 
-
     return check;
 }
 

@@ -7,13 +7,14 @@ function simplePair(arr, result)
             if (arr[base] * arr[mul] === result)
             {
                 if (arr[base] === arr[mul])
-                    return null
+                    return null;
                 else
-                    return [arr[base], arr[mul]]
+                    return [arr[base], arr[mul]];
             }
         }
     }
 }
+
 
 console.log(simplePair([1, 2, 3], 3));
 console.log(simplePair([1, 2, 3], 6));

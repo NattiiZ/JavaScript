@@ -8,6 +8,7 @@ function sumBudget(peoples)
     return total;
 }
 
+
 const peoples = [
     {name: "John", age: 21, budget: 23000},
     {name: "Steve", age: 32, budget: 40000},

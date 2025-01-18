@@ -11,7 +11,6 @@ function clock(sec)
     else if (mm === 60)
         mm -= 60;
 
-    
     console.log(`${HH<10?0:""}${HH}:${mm<10?0:""}${mm}:${ss<10?0:""}${ss}`);
 }
 
