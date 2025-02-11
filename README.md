@@ -1,2 +1,2 @@
 # JavaScript
-JavaScript for JavaScript Programming
+All codes were created by Nattawut_s30011 for JavaScript Programming.
